@@ -1,0 +1,72 @@
+body{
+    font-family: sans-serif;
+}
+
+/* navigation */
+nav{
+    background-color: #d4d4d4;
+    border: solid 1px #333333;
+}
+
+.navlink{
+    display: inline-block;
+    padding: 10px 50px;
+    background-color: #474747;
+    text-align: center;
+    /* margin: 0; */
+}
+
+.navmenu{
+    text-decoration: none;
+    color: white;
+}
+
+/* content */
+.content{
+    display: flex;
+    position: relative;
+}
+
+/* sidebar */
+.sidebar{ 
+    width: 30%;
+    position: absolute;
+    left: 0;
+    background-color: #e8e8e8;
+}
+
+.sidetop{
+    text-align: center;
+    border: solid 1px #333333;
+    /* padding: 15px; */
+}
+
+.mypetpic{
+    width: 50px;
+}
+
+.sidebottom{
+    border: solid 1px #333333;
+    /* padding: 15px; */
+}
+
+/* main content */
+.maincontent{
+    width: 70%;
+    position: absolute;
+    right: 0;
+    background-color: #e8e8e8;
+    border: solid 1px #333333;
+    /* padding: 15px; */
+}
+
+
+
+.animalpic1{
+    width: 10%;
+    float: left;
+}
+
+.small-animalpic{
+    width: 10%;
+}
