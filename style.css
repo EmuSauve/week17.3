@@ -6,14 +6,15 @@ body{
 nav{
     background-color: #d4d4d4;
     border: solid 1px #333333;
+    display: flex;
 }
 
 .navlink{
-    display: inline-block;
+    /* display: inline-block; */
     padding: 10px 50px;
     background-color: #474747;
     text-align: center;
-    /* margin: 0; */
+    margin: 0;
 }
 
 .navmenu{
@@ -24,21 +25,25 @@ nav{
 /* content */
 .content{
     display: flex;
-    position: relative;
+    /* position: relative; */
 }
 
 /* sidebar */
 .sidebar{ 
     width: 30%;
-    position: absolute;
+    /* position: absolute; */
     left: 0;
     background-color: #e8e8e8;
+    top: 0;
+    /* height: 100%; */
+    display: flex;
+    flex-direction: column;
 }
 
 .sidetop{
     text-align: center;
     border: solid 1px #333333;
-    /* padding: 15px; */
+    padding: 5%;
 }
 
 .mypetpic{
@@ -47,26 +52,42 @@ nav{
 
 .sidebottom{
     border: solid 1px #333333;
-    /* padding: 15px; */
+    padding: 5%;
+}
+
+* {
+    box-sizing: border-box;
 }
 
 /* main content */
 .maincontent{
     width: 70%;
-    position: absolute;
+    /* position: absolute; */
     right: 0;
     background-color: #e8e8e8;
     border: solid 1px #333333;
-    /* padding: 15px; */
+    padding: 5%;
+    top: 0;
+    /* height: 100%; */
+}
+
+.maintop{
+}
+
+.animalpic1{
+    width: 200px;
+    float: left;
+    margin: 0 15px 15px 0;
 }
 
 
-
-.animalpic1{
-    width: 10%;
-    float: left;
+.mainbottom{
+    text-align: center;
+    clear: left;
+    margin-top: 100px;
 }
 
 .small-animalpic{
-    width: 10%;
+    width: 150px;
+    margin: 10px;
 }
